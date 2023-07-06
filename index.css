@@ -1,0 +1,98 @@
+*{
+    font-family: "Bubblegum Sans";
+}
+
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    padding: 20px;
+}
+
+.menu{
+    background-color: burlywood;
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.est{
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.item p{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.flavour{
+    width: 25%;
+    text-align: left;
+}
+
+.dessert{
+    width: 25%;
+    text-align: left;
+}
+
+.price{
+    width: 75%;
+    text-align: right;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    background-color: rgb(131, 68, 9);
+    border-color: rgb(131, 68, 9);
+}
+
+/* FOOTER */
+
+footer{
+    font-size: 16px;
+}
+
+a{
+    font-family: "Roboto";
+    color: rgb(39, 37, 37);
+}
+
+a:hover{
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+}
+
+a:visited{
+    font-family: "Roboto";
+    color: rgb(2, 2, 2);
+}
+
+.address{
+    margin-bottom: 15px;
+    font-family: "Roboto";
+    color: rgb(39, 37, 37);
+}
