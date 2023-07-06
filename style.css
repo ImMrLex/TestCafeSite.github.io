@@ -96,3 +96,27 @@ a:visited{
     font-family: "Roboto";
     color: rgb(39, 37, 37);
 }
+
+.next-button{
+    text-align: right;
+    margin-top: 10px;
+}
+
+button{
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 35px;
+    width: 8%;
+    text-decoration: none;
+    background-color: rgb(245, 173, 78);
+    color: rgb(77, 46, 0);
+    
+}
+
+.big-img{
+    block-size: 5.5%;
+}
+
+.drink-icon-1{
+    block-size: 5%;
+}
